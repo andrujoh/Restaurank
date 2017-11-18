@@ -1,0 +1,17 @@
+
+
+//- .wrapper
+//- 	- const upName = name.toUpperCase();
+//- 	p.hello Hello there, #{name.toUpperCase()}!
+//- 	span#yo I am #{age} years old!
+//- 	br
+//- 	img(src="dog.jpg" alt=`Dog ${name}`)
+
+//- h2 
+//- 	| Hello!
+//- 	em How are you?
+
+extends layout
+
+block content
+	h1 Hello, #{name}. The day ends #{h.moment().endOf('day').fromNow()}
